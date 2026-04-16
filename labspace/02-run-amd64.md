@@ -26,7 +26,7 @@ The official container image is published to the Hugging Face registry. Run it e
 
 ```bash
 docker run -it \
-  -p 7860:7860 -m 4g \
+  -p 7862:7860 -m 4g \
   --platform=linux/amd64 \
   -e HUGGING_FACE_HUB_TOKEN="$HUGGING_FACE_HUB_TOKEN" \
   registry.hf.space/ace-step-ace-step-v1-5:latest \
