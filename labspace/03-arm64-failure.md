@@ -37,8 +37,8 @@ flash-attn @ https://github.com/mjun0812/flash-attention-prebuild/releases/downl
 
 ```bash
 sudo apt update
-sudo apt install pip3
-pip install -r requirements.txt
+sudo apt install python3-pip
+pip3 install -r requirements.txt
 ```
 
 ### What you will see
