@@ -36,6 +36,8 @@ flash-attn @ https://github.com/mjun0812/flash-attention-prebuild/releases/downl
 ## Step 3 — Try to install on Arm64
 
 ```bash
+sudo apt update
+sudo apt install pip3
 pip install -r requirements.txt
 ```
 
